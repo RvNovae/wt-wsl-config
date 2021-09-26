@@ -1,0 +1,149 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions":
+    [
+        {
+            "command":
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command":
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Gruvbox Dark",
+            "cursorColor": "#EBDBB2",
+            "cursorShape": "filledBox"
+        },
+        "list":
+        [
+            {
+                "acrylicOpacity": 0.90000000000000002,
+                "colorScheme": "BlulocoDark",
+                "commandline": "cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "startingDirectory": ".",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "BlulocoDark",
+                "commandline": "powershell.exe",
+                "font":
+                {
+                    "face": "Cascadia Code PL"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "BlulocoDark",
+                "cursorShape": "emptyBox",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": null
+            }
+        ]
+    },
+    "schemes":
+    [
+        {
+            "background": "#282C34",
+            "black": "#41444D",
+            "blue": "#3476FF",
+            "brightBlack": "#8F9AAE",
+            "brightBlue": "#10B1FE",
+            "brightCyan": "#5FB9BC",
+            "brightGreen": "#3FC56B",
+            "brightPurple": "#FF78F8",
+            "brightRed": "#FF6480",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F9C859",
+            "cursorColor": "#FFCC00",
+            "cyan": "#4483AA",
+            "foreground": "#B9C0CB",
+            "green": "#25A45C",
+            "name": "BlulocoDark",
+            "purple": "#7A82DA",
+            "red": "#FC2F52",
+            "selectionBackground": "#B9C0CA",
+            "white": "#CDD4E0",
+            "yellow": "#FF936A"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1E1E",
+            "black": "#1E1E1E",
+            "blue": "#377375",
+            "brightBlack": "#7F7061",
+            "brightBlue": "#719586",
+            "brightCyan": "#7DB669",
+            "brightGreen": "#AAB01E",
+            "brightPurple": "#C77089",
+            "brightRed": "#F73028",
+            "brightWhite": "#E6D4A3",
+            "brightYellow": "#F7B125",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#578E57",
+            "foreground": "#E6D4A3",
+            "green": "#868715",
+            "name": "Gruvbox Dark",
+            "purple": "#A04B73",
+            "red": "#BE0F17",
+            "selectionBackground": "#FFFFFF",
+            "white": "#978771",
+            "yellow": "#CC881A"
+        }
+    ],
+    "windowingBehavior": "useExisting"
+}
