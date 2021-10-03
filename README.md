@@ -1,5 +1,19 @@
 # wt-wsl-config
 Windows Terminal and wsl configuration files
 
-- replace windows terminal settings file with `settings.json`
-- execute `wsl_init.sh`(from wsl) *once* to configure bash
+## switch to zsh
+
+```bash
+sudo apt install zsh
+sudo -s 
+chsh -s /bin/zsh root
+chsh -s /bin/zsh username
+```
+
+## ohmyzsh and p10k
+
+```bash
+cd ~
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
